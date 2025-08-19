@@ -1,1 +1,1 @@
-# O-CEREBRO-DO-ANALISADOR
+# mente-do-analisador

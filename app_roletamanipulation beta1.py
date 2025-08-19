@@ -231,7 +231,7 @@ class RoletaMestre:
 st.set_page_config(layout="wide", page_title="Roleta Mestre")
 
 st.title("Roleta Mestre 🎲")
-st.markdown("Analisador de estratégias e manipulações em tempo real. Desenvolvido com base nas aulas do Lê da Roleta.")
+st.markdown("Analisador de estratégias e manipulações em tempo real.")
 
 if 'analista' not in st.session_state:
     st.session_state.analista = RoletaMestre()
@@ -293,4 +293,5 @@ with st.sidebar:
 
     st.markdown("---")
     st.subheader("Lembre-se:")
+
     st.warning("Este é um analisador de padrões e não garante vitórias. Jogue com responsabilidade. Nenhuma estratégia é 100% infalível.")
